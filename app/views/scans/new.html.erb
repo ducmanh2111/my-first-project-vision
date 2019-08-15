@@ -1,0 +1,9 @@
+<h1> Upload an image here </h1>
+
+<%= form_for @abc do |f| %>
+  <%= f.label "Chon path" %>
+  <%= f.text_field :path %>
+  <%= f.label "Chon link" %>
+  <%= f.text_field :link %>
+  <%= f.submit "Submit" %>
+<% end %>
