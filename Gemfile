@@ -46,7 +46,7 @@ group :development, :test do
   gem 'pry', '~> 0.10.3'
   gem 'sidekiq'
   gem 'abbyy-cloud'
-  gem 'json', '~> 1.8', '>= 1.8.3'
+  gem 'json', '~> 2.3'
   gem 'xml-simple'
 end
 
